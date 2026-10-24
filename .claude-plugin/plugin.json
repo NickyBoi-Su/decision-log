@@ -1,6 +1,6 @@
 {
   "name": "decision-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A pane beside the chat listing the implicit decisions Claude makes while it works, with an optional DECISIONS.md",
   "author": { "name": "NickyBoi-Su" },
   "license": "MIT",

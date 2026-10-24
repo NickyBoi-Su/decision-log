@@ -2,13 +2,7 @@
 
 A Claude Code mod that shows, in a pane beside the chat, the implicit decisions Claude makes while it works: the defaults it picks, what it assumes about you, the repo conventions it follows, and what it leaves out. Handy in auto mode, where you can catch a wrong assumption before more work builds on it.
 
-```
-Turn 2: add a lint script
-default     Used ruff instead of flake8
-           why: pyproject.toml already configures ruff
-scope       Left CI config unchanged
-           why: not asked for
-```
+![The Decisions pane filling up as Claude works in auto mode](assets/demo.gif)
 
 ## Install
 

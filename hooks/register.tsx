@@ -233,7 +233,12 @@ export const register: Register = (on, options) => {
                 <Text color={KIND_COLOR[d.kind]}>{d.kind.padEnd(11)}</Text>
                 <Text>{d.decision}</Text>
               </Box>
-              {d.why !== '' && <Text dimColor>{`           why: ${d.why}`}</Text>}
+              {d.why !== '' && (
+                <Box flexDirection="row">
+                  <Text>{' '.repeat(11)}</Text>
+                  <Text dimColor>{`why: ${d.why}`}</Text>
+                </Box>
+              )}
             </Box>
           )
         })}
