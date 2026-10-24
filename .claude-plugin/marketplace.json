@@ -1,0 +1,6 @@
+{
+  "name": "decision-log",
+  "owner": { "name": "NickyBoi-Su" },
+  "description": "A Claude Code mod that shows the implicit decisions Claude makes in a pane beside the chat",
+  "plugins": [{ "name": "decision-log", "source": "./" }]
+}

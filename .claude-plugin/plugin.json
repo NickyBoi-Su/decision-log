@@ -1,0 +1,16 @@
+{
+  "name": "decision-log",
+  "version": "0.1.0",
+  "description": "A pane beside the chat listing the implicit decisions Claude makes while it works, with an optional DECISIONS.md",
+  "author": { "name": "NickyBoi-Su" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "writeDecisionsFile": {
+      "type": "boolean",
+      "title": "Write DECISIONS.md",
+      "description": "Keep one DECISIONS.md in the project with each session's request summary and its decisions",
+      "default": false
+    }
+  }
+}
